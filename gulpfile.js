@@ -48,7 +48,7 @@ gulp.task('fonts', function() {
 
 // BrowserSync live reload
 gulp.task('browserSync', function() {
-    browserSync({ server: { baseDir: './src/'}, injectChanges: true });
+    browserSync({ server: { baseDir: './src/'}  });
 });
 
 // Will compile all inline within the html file (less http requests - woot!)
